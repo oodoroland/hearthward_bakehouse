@@ -1,0 +1,14 @@
+export type NavLink = {
+  label: string;
+  path: string;
+  href: string;
+};
+
+export const NAV_LINKS: NavLink[] = [
+  { label: "Home", path: "home", href: "#" },
+  { label: "Today's Counter", path: "todays-counter", href: "#" },
+  { label: "Pre-order", path: "pre-order", href: "#" },
+  { label: "Visit", path: "visit", href: "#" },
+  { label: "Celebrations & Office", path: "celebrations-office", href: "#" },
+  { label: "Our Story", path: "our-story", href: "#" },
+];
