@@ -1,16 +1,18 @@
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 export type Gathering = {
   eyebrow: string;
   title: string;
   description: string;
   ctaLabel: string;
+  href: string;
   imageAlt: string;
   imageSrc: string;
 };
 
 export function GatheringCard({ gathering }: { gathering: Gathering }) {
-  const { eyebrow, title, description, ctaLabel, imageAlt, imageSrc } =
+  const { eyebrow, title, description, ctaLabel, href, imageAlt, imageSrc } =
     gathering;
 
   return (
@@ -33,13 +35,13 @@ export function GatheringCard({ gathering }: { gathering: Gathering }) {
         <p className="font-body text-body-md text-inverse-on-surface/90 max-w-md mb-space-md">
           {description}
         </p>
-        <a
-          href="#"
+        <Link
+          href={href}
           className="inline-flex items-center gap-2 text-white text-label-md uppercase tracking-wider hover:underline"
         >
           <span>{ctaLabel}</span>
           <ArrowRight size={16} />
-        </a>
+        </Link>
       </div>
     </div>
   );

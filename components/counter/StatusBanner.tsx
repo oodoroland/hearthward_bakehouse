@@ -1,4 +1,5 @@
 import { Info } from "lucide-react";
+import Link from "next/link";
 
 export function StatusBanner() {
   return (
@@ -20,12 +21,12 @@ export function StatusBanner() {
           </div>
         </div>
 
-        <a
-          href="#"
+        <Link
+          href="/visit#hours"
           className="bg-primary text-on-primary px-space-md py-space-xs rounded-xl text-label-md uppercase tracking-wider hover:bg-primary-container hover:text-on-primary-container transition-colors whitespace-nowrap"
         >
           View Weekly Schedule
-        </a>
+        </Link>
       </div>
     </section>
   );

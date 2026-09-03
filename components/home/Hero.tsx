@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const STATS = [
   { value: "100%", label: "Wild Ferment" },
   { value: "04:00", label: "Daily Bake Time" },
@@ -33,18 +35,18 @@ export function Hero() {
           </p>
 
           <div className="flex flex-wrap items-center gap-space-sm pt-space-2xs">
-            <a
-              href="#"
+            <Link
+              href="/todays-counter"
               className="bg-primary-container text-on-primary-container hover:bg-primary hover:text-on-primary px-space-lg py-space-sm rounded-xl text-label-md uppercase tracking-wider transition-all duration-200 shadow-sm"
             >
               See today&apos;s counter
-            </a>
-            <a
-              href="#"
+            </Link>
+            <Link
+              href="/pre-order"
               className="border border-outline hover:border-on-surface text-on-surface px-space-lg py-space-sm rounded-xl text-label-md uppercase tracking-wider transition-all duration-200"
             >
               Pre-order for collection
-            </a>
+            </Link>
           </div>
 
           <div className="grid grid-cols-3 gap-space-md pt-space-lg w-full border-t border-outline-variant/20 mt-space-sm">

@@ -1,4 +1,5 @@
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 import { ProductCard, type Product } from "./ProductCard";
 
 const PRODUCTS: Product[] = [
@@ -59,8 +60,8 @@ export function CounterPreview() {
               Today&apos;s Counter Preview
             </h2>
           </div>
-          <a
-            href="#"
+          <Link
+            href="/todays-counter"
             className="inline-flex items-center gap-2 mt-4 md:mt-0 text-label-md uppercase tracking-wider text-primary hover:text-on-surface transition-colors group"
           >
             <span>View today&apos;s full counter</span>
@@ -68,7 +69,7 @@ export function CounterPreview() {
               size={18}
               className="transform group-hover:translate-x-1 transition-transform"
             />
-          </a>
+          </Link>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-grid-gutter">

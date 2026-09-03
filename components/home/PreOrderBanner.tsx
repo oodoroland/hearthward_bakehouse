@@ -1,4 +1,5 @@
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 export function PreOrderBanner() {
   return (
@@ -17,13 +18,13 @@ export function PreOrderBanner() {
           Pick up directly from our counter without waiting in line.
         </p>
         <div className="pt-space-sm">
-          <a
-            href="#"
+          <Link
+            href="/pre-order"
             className="inline-flex items-center gap-2 bg-on-primary text-primary hover:bg-surface-bright px-space-xl py-space-sm rounded-xl text-label-md uppercase tracking-wider transition-colors shadow-lg"
           >
             <span>Start a pre-order</span>
             <ArrowRight size={18} />
-          </a>
+          </Link>
         </div>
       </div>
     </section>

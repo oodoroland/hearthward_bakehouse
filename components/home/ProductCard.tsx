@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export type Product = {
   category: string;
   name: string;
@@ -62,12 +64,12 @@ export function ProductCard({ product }: { product: Product }) {
           </p>
         </div>
 
-        <a
-          href="#"
+        <Link
+          href="/pre-order"
           className="mt-space-md w-full py-2.5 bg-surface-container hover:bg-primary hover:text-on-primary text-on-surface rounded-xl text-center text-label-md uppercase tracking-wider transition-colors"
         >
           {ctaLabel}
-        </a>
+        </Link>
       </div>
     </div>
   );

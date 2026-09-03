@@ -7,6 +7,7 @@ const GATHERINGS: Gathering[] = [
     description:
       "Cakes, pastry boxes and special occasions crafted to make your moments memorable.",
     ctaLabel: "Explore celebrations",
+    href: "/celebrations-office#celebrations-form",
     imageAlt:
       "An elegant celebration layer cake decorated with fresh figs and seasonal florals, served on a rustic wooden table.",
     imageSrc:
@@ -18,6 +19,7 @@ const GATHERINGS: Gathering[] = [
     description:
       "Breakfast meetings, team mornings and larger orders delivered fresh to your office.",
     ctaLabel: "View office menus",
+    href: "/celebrations-office#office-form",
     imageAlt:
       "A grand corporate breakfast meeting setup featuring tiered pastry platters, artisan sourdough sandwiches, and specialty coffee carafes.",
     imageSrc:

@@ -45,14 +45,16 @@ export function VisitPreview() {
 
           <div className="flex flex-wrap items-center gap-space-sm pt-space-xs">
             <a
-              href="#"
+              href="https://maps.google.com"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-primary-container text-on-primary-container hover:bg-primary hover:text-on-primary px-space-md py-space-xs rounded-xl text-label-md uppercase tracking-wider transition-colors inline-flex items-center gap-2"
             >
               <Navigation size={16} />
               <span>Get directions</span>
             </a>
             <a
-              href="#"
+              href="tel:5550192834"
               className="border border-outline hover:border-on-surface text-on-surface px-space-md py-space-xs rounded-xl text-label-md uppercase tracking-wider transition-colors inline-flex items-center gap-2"
             >
               <Phone size={16} />
