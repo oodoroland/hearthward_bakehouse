@@ -52,7 +52,7 @@ export function MobileBottomNav() {
       ))}
 
       <Link
-        href="#"
+        href="/pre-order"
         className="flex flex-col items-center justify-center bg-primary-container text-on-primary-container rounded-xl py-2 px-4"
       >
         <ShoppingBag size={20} />

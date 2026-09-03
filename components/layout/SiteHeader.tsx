@@ -52,12 +52,12 @@ export function SiteHeader() {
         </nav>
 
         <div className="flex items-center gap-4">
-          <a
-            href="#"
+          <Link
+            href="/pre-order"
             className="hidden sm:inline-flex bg-primary-container text-on-primary-container hover:bg-primary hover:text-on-primary px-space-md py-space-xs rounded-xl text-label-md uppercase tracking-wider transition-colors"
           >
             Pre-order
-          </a>
+          </Link>
           <div className="w-8 h-8 rounded-full bg-primary flex items-center justify-center">
             <User className="text-on-primary" size={18} />
           </div>
