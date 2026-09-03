@@ -7,7 +7,7 @@ import { usePathname } from "next/navigation";
 const MOBILE_LINKS = [
   { href: "/", label: "Home", icon: Home },
   { href: "/todays-counter", label: "Counter", icon: Croissant },
-  { href: "#", label: "Visit", icon: MapPin },
+  { href: "/visit", label: "Visit", icon: MapPin },
 ] as const;
 
 function MobileNavLink({
