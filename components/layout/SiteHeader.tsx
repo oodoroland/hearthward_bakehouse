@@ -1,8 +1,14 @@
+"use client";
+
 import { User } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { NAV_LINKS } from "./nav-links";
 
 export function SiteHeader() {
+  const pathname = usePathname();
+
   return (
     <header className="fixed top-0 w-full z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]">
       <div className="bg-primary-container text-on-primary-container px-6 py-2 text-center text-label-md flex items-center justify-center gap-2">
@@ -26,20 +32,23 @@ export function SiteHeader() {
         </div>
 
         <nav className="hidden lg:flex items-center gap-8">
-          {NAV_LINKS.map((link) => (
-            <a
-              key={link.path}
-              href={link.href}
-              aria-current={link.path === "home" ? "page" : undefined}
-              className={
-                link.path === "home"
-                  ? "transition-colors text-primary font-semibold"
-                  : "text-body-md text-on-surface-variant hover:text-on-surface transition-colors"
-              }
-            >
-              {link.label}
-            </a>
-          ))}
+          {NAV_LINKS.map((link) => {
+            const isActive = pathname === link.href;
+            return (
+              <Link
+                key={link.path}
+                href={link.href}
+                aria-current={isActive ? "page" : undefined}
+                className={
+                  isActive
+                    ? "transition-colors text-primary font-semibold"
+                    : "text-body-md text-on-surface-variant hover:text-on-surface transition-colors"
+                }
+              >
+                {link.label}
+              </Link>
+            );
+          })}
         </nav>
 
         <div className="flex items-center gap-4">
