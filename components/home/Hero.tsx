@@ -67,9 +67,9 @@ export function Hero() {
           <div className="relative rounded-2xl overflow-hidden shadow-2xl aspect-[4/5] bg-surface-container-high">
             {/* TODO: replace with owned asset */}
             <img
-              alt="A rustic artisan bakery counter laden with freshly baked artisan sourdough loaves, golden croissants dusted with powdered sugar, and warm cinnamon buns under soft morning light."
+              alt="A bakery display case filled with freshly baked pastries, croissants and loaves under warm morning light."
               className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition-transform duration-700"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuAwyEQuUljH07Jqeeswwj_fCA2PeNTSd9JtSgWBYGY9Z8R26yehXTMnZGY6Ylwbw1Ss_CBzjPKtvkrnwYBHTK-PiYuI_jMQ-F5VN8zJ5pwnqtxIliYOCqaN3rhnzuJaNJe-u9yfv-UL-k5BDuTxuFW-Uu0D6xJr4Bg46K7pf17cEYoK4UOZYYbOS_7KRlNkt7HHO8K_zqEO6xceKns1-Pz0XXQLBbVHKjlYoYceV5v35Wmx_FgfTbmlzQ"
+              src="https://images.unsplash.com/photo-1568254183919-78a4f43a2877?auto=format&fit=crop&w=1000&q=80"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-primary/40 via-transparent to-transparent" />
             <div className="absolute bottom-6 left-6 right-6 text-on-primary">

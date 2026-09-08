@@ -42,8 +42,8 @@ export function VisitHero() {
         <div className="relative rounded-2xl overflow-hidden shadow-xl aspect-[4/5] bg-surface-container">
           {/* TODO: replace with owned asset */}
           <img
-            alt="A warm, sunlit artisan bakery storefront with wooden signage, large glass windows displaying fresh sourdough loaves, and outdoor seating on a cobblestone street during morning light."
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuAfVQbnHccf696LrXgFfAMoVdjngnyARc9gd_A7trHZRdz9t3Akuo_DmDSC2TLaKJPaK_i2tmVLbbykezBQ-Vs0MKIn8qR3rlonaxHatyYYhlMQGEOSMNzEILlXclhDJrCjxjbgjgtL9Xc5kwb06BC9MBJm_Gfqd0cbKIrgUm508wsbrIReVRI298mnPToquQ2ypY11QE3UQMe7W8FDFr7q4b1eSfmJHgvAy_olEseIEdX7cu-m5Q0Frg"
+            alt="A warm, sunlit bakery storefront with gold-lettered signage and large glass windows, seen from the street."
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdEUGS-TzudN3y9iG6ku6lvVwwNMOI_19RvzZOV6_HxZet9-kQShRR9qM&s=10"
             className="absolute inset-0 w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-primary/30 via-transparent to-transparent" />

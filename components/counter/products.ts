@@ -50,9 +50,9 @@ export const PRODUCTS: CounterProduct[] = [
     cornerBadge: { label: "4 left in batch", tone: "secondary" },
     ctaLabel: "Pre-order",
     imageAlt:
-      "A rustic artisan loaf of country sourdough bread resting on a dark wood flour-dusted workbench, morning sunlight casting warm editorial shadows across the scored crust.",
+      "A rustic artisan loaf of country sourdough bread, scored and dusted with flour.",
     imageSrc:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuCWBR4d2ihqPmv_eogYMG5mupw5Gj1MszeqaumOfrIbQzcLdiDw-BpRv1RcU4hc9_qrIQq-FaHEJvb83dOAomxOVF8qvwQcHpDQOsHocJjTMao3B2nzZJMtjI_47c82NAC7qjhqmGHWb6j7lx4TDc_gWN4dk01dNJVp5_GXcdDAuXmVyj-9uVI5PDxHOFGLoPeAPwjOgxG5ThDcoAimOpYIhoKHPUfP1WAb4peNlp28FhOF1lB_h53isQ",
+      "https://images.unsplash.com/photo-1586444248902-2f64eddc13df?auto=format&fit=crop&w=800&q=80",
   },
   {
     id: "almond-croissant",
@@ -71,9 +71,9 @@ export const PRODUCTS: CounterProduct[] = [
     cornerBadge: { label: "Fresh batch", tone: "primary" },
     ctaLabel: "Pre-order",
     imageAlt:
-      "A flaky, golden-brown twice-baked almond croissant dusted with powdered sugar and toasted sliced almonds, set against a warm linen background.",
+      "A flaky, golden-brown twice-baked almond croissant, freshly baked and glossy.",
     imageSrc:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuB0R-RHMEI8Zd4J6L7BymFTN_CpAByaoZ3o5MesJPlNODlgXvu95yxO_f9M4h-PCxib3oQxMLjCz2chUqvxImtosGPLstw1UMz4jDUPIZsIZInRR-dIry5OUyAq2DcTSV2JpNMlnVS8xPXkpV0zhaHcvf4llrHuy4wAZhuzu_-ILJS3UTZfyX_qmTtaanAtq4udeTSI-qhHAb-KtilLgc43h0PDbgaBE7kjBN0hmSV7zQSFtJj01ajqPA",
+      "https://images.unsplash.com/photo-1623334044303-241021148842?auto=format&fit=crop&w=800&q=80",
   },
   {
     id: "cinnamon-bun",
@@ -92,9 +92,9 @@ export const PRODUCTS: CounterProduct[] = [
     cornerBadge: { label: "Selling fast", tone: "secondary-container" },
     ctaLabel: "Pre-order",
     imageAlt:
-      "A soft brioche cinnamon roll drizzled with rich cream cheese icing, glistening under soft morning bakery light.",
+      "Soft swirled cinnamon buns dusted with sugar, fresh from the oven.",
     imageSrc:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuCyq22RhnEQwoOXDlVf4qY3ahGr0ck508XWT1Z4MgfxGVZLqOgHo2HWlov886JL42WXOoqSL34jE1yX54dsPeX19j-a1MnXKFDEboovUXU4fZ3EPaxaVY19HQsKuzyXKACjksQExGe980PSXxzMZjOIg_puqVjp2igSDYg5V1dixMRoh_7AFX3R1A51MLHAxWy_kt1SEbY99poJbKwYPbDxWbd_NRGv-uNYt9PKfnRv9ddi21A6V6w_ew",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC9fcmvHQF1MABNxoVFgKxQ0KUQliwttUBRcKhcG7rIoKbpONguy2BoDGT&s=10",
   },
   {
     id: "cardamom-bun",
@@ -112,9 +112,9 @@ export const PRODUCTS: CounterProduct[] = [
     status: "available",
     ctaLabel: "Pre-order",
     imageAlt:
-      "Swedish style twisted cardamom bun studded with pearl sugar crystals on a dark stoneware plate.",
+      "Swedish style twisted cardamom buns studded with pearl sugar crystals.",
     imageSrc:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuAZvINJYuZh9RbB5z5nk9gZrCvfiI42GMxjudEhRGSyHuRcE9KIw2tfApCSZvy9n3wDWACMzMeyulSqKZJ1Ecme1rtSOXNUbUyO4mdu2GTz_GuuQvnVfoQPeWw6QQNrcfMMnCCPxLliRcZX5WD_8C3PKp5oQiHYf5ZQScDOi8AN7Sxf53yE_e2T0IXgarXYwLl7XVcCpnzl-hw5H9NKKxjaxM4A8KtKaPzLflScIbgInPWQFvochxjkTw",
+      "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/cardamom-buns-f351755.jpg",
   },
   {
     id: "seeded-rye-loaf",
@@ -132,9 +132,9 @@ export const PRODUCTS: CounterProduct[] = [
     status: "sold-out",
     ctaLabel: "Sold out",
     imageAlt:
-      "A dark dense seeded rye loaf sliced on a wooden board, showing sunflower, pumpkin, and flax seeds throughout the crumb.",
+      "A seeded rye loaf sliced open on a wooden board, showing seeds throughout the crumb.",
     imageSrc:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuD-4-WYcw4px4dEYFTIdf_gPfLYFgwNJhz3x_xMDBZt81zjMHYsR2XV3f3bs-76Zh8D3slQzRR9jBwmRMvKAUbxe8xkBPkcS3urQjC_jUPLWHpiMeNSDiuxCL02MEsZBifk1Jr8YF-abBuEkxpRDLbFkXQonydPbJQMyb32wBnNc-hMG-BoGK80RyKm5xW2r28A1G02tvc8reXqHrQtL052HtVvL-t2fPykh-bMBHC9z2u5PSpmUK3OzQ",
+      "https://live.staticflickr.com/3364/4628872585_4f3c00a044_b.jpg",
   },
   {
     id: "house-filter-coffee",
@@ -150,8 +150,8 @@ export const PRODUCTS: CounterProduct[] = [
     status: "available",
     ctaLabel: "Add to order",
     imageAlt:
-      "A ceramic mug of pour-over filter coffee steaming gently on a wooden counter with soft morning light.",
+      "Pour-over filter coffee being brewed at a coffee bar, steam rising from the kettle.",
     imageSrc:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuAta6r-A8IN5T1jom1P4rMIR5JeN878Sxs-YRAFXVhtlWeb1-VkAiobJb7LMCz5qC9cvezDZPvdqIoNt8xL_UtR7I_kae6b4BfhmDHsQr4SubnLPVgLVjnxF_cr-SsDg3DkLlsgZVvMzmuoGaS5FJjiKiIMpIj_lk5HhXHt_P7NuHu83lUvc4zdnOymWW3mKEUVn75IOjoli0sDST9tm9YPtCXR_VyySyPpdqr2HhEVrWZ05zUbTWvJbQ",
+      "https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=800&q=80",
   },
 ];
