@@ -25,22 +25,45 @@ export function StoryTeaser() {
           </a>
         </div>
 
-        <div className="lg:col-span-7">
-          <div className="relative rounded-2xl overflow-hidden shadow-xl aspect-[16/9] bg-surface-container-high group cursor-pointer">
+        {/* <div className="lg:col-span-7">
+          <div className="relative rounded-2xl overflow-hidden shadow-xl aspect-[16/9] bg-surface-container-high group cursor-pointer"> */}
             {/* TODO: replace with owned asset */}
-            <img
+            {/* <img
               alt="Cinematic frame of a baker scoring a raw sourdough boule with a razor blade in dramatic morning window light."
               src="https://lh3.googleusercontent.com/aida-public/AB6AXuAs8cpDGQfyGGkR62Qn6x9JfdFL_ZG5SPqwY7de0FKKbQp6QDqprynkVtRKlQDb2YOv7sMHc-0jXRamg4UGcs6cWITxY5MglNZEHNxmjo1Szy8eMMlERWf5iNqMl3hgp0uCJV2TKUjHtmi5o9aYakp_JAeduvkRiT-stDOhVm1t-y4BM3gZsoC12bnWIPlYYuthA9npLK2yRxCeiitKng4ROH5_ONrFdNjl8-jqUC7NGlLYzjbO3AvW6Q"
               className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-            />
-            <div className="absolute inset-0 bg-inverse-surface/30 group-hover:bg-inverse-surface/20 transition-colors" />
+            /> */}
+            {/* <div className="absolute inset-0 bg-inverse-surface/30 group-hover:bg-inverse-surface/20 transition-colors" />
             <div className="absolute inset-0 flex items-center justify-center">
               <div className="w-16 h-16 rounded-full bg-surface/90 backdrop-blur-md flex items-center justify-center text-primary shadow-lg transform group-hover:scale-110 transition-transform">
                 <Play size={32} className="translate-x-0.5" />
               </div>
-            </div>
-          </div>
-        </div>
+            </div> */}
+          {/* </div>
+        </div> */}
+
+        <div className="lg:col-span-7">
+  <div className="relative rounded-2xl overflow-hidden shadow-xl aspect-[16/9] bg-surface-container-high group cursor-pointer">
+    <video
+      className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+      poster="/path/to/fallback-thumbnail.jpg"
+      autoPlay
+      muted
+      loop
+      playsInline
+      preload="metadata"
+    >
+      <source src="/hearthward_video.mp4" type="video/mp4" />
+      <source src="/path/to/video.webm" type="video/webm" />
+    </video>
+    <div className="absolute inset-0 bg-inverse-surface/30 group-hover:bg-inverse-surface/20 transition-colors" />
+    <div className="absolute inset-0 flex items-center justify-center">
+      <div className="w-16 h-16 rounded-full bg-surface/90 backdrop-blur-md flex items-center justify-center text-primary shadow-lg transform group-hover:scale-110 transition-transform">
+        <Play size={32} className="translate-x-0.5" />
+      </div>
+    </div>
+  </div>
+</div>
       </div>
     </section>
   );
